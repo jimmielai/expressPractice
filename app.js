@@ -17,5 +17,5 @@ admin.get('/', function(req, res){
 });
 
 app.use(['/adm*n', '/manager'], admin);
-var x = 0;
+
 app.listen(3000);
